@@ -1,4 +1,4 @@
-baseurl         = "https://scholz.github.io/webpage"
+baseurl         = "https://scholz.github.io"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
