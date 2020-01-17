@@ -1,7 +1,7 @@
 baseurl         = "https://scholz.github.io"
 theme           = "casper-two"
 languageCode    = "en-US"
-disqusShortname = ""
+disqusShortname = "scholz dev postings"
 paginate        = 6
 #SectionPagesMenu = "main"
 
@@ -16,8 +16,8 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
+  #twitterName = "faketryghost"
+  #fbName = "fakeghost"
   githubName = "scholz"
 
   #logo = "hugo-logo.png"
@@ -45,10 +45,9 @@ paginate        = 6
   weight = 200
 
 [[menu.main]]
-  name = "About"
-  #url = "/category/about/"
-  url = "/tags/about/"
-  weight = 100
+  name = "Blog"
+  url = "/tags/blog/"
+  weight = 99
 
 [[menu.main]]
   name = "Projects"
@@ -56,6 +55,7 @@ paginate        = 6
   weight = 100
 
 [[menu.main]]
-  name = "Blog"
-  url = "/tags/blog/"
-  weight = 99
+  name = "About"
+  #url = "/category/about/"
+  url = "/tags/about/"
+  weight = 100
