@@ -1,3 +1,10 @@
+---
+title: "Testpost from notion"
+date: 2020-01-17T15:33:00+01:00
+draft: false
+tags: ["blog"]
+
+---
 # Testpost
 
 This is an initial blog post originating from notion and exported as markdown.
