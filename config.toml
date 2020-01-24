@@ -1,61 +1,93 @@
-baseurl         = "https://scholz.github.io"
-theme           = "casper-two"
-languageCode    = "en-US"
-disqusShortname = "scholz dev postings"
-paginate        = 6
-#SectionPagesMenu = "main"
+baseURL = "scholz.github.io"
+title = "Markus Scholz"
+theme = "manis"
+
+# Copyright notice. Note: You can use HTML tag here
+copyright = "&copy; 2020 Markus Scholz"
+pluralizeListTitles = false
+
+# Minimum number of posts before paginate navigation show up
+paginate = 10
+
+# Your disqus shortname
+disqusShortname = ""
+
+# Edit this if you want to translate your blog
+defaultContentLanguage = "en"
+
+# Code Highlighting (Chroma)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+	[[menu.main]]
+		name = "Post"
+		url = "/post/"
+	
+	[[menu.main]]
+		name = "About"
+		url = "/about"
+
+[taxonomies]
+	tag = "tags"
 
 [params]
-  title       = "Markus Scholz"
-  subtitle    = "Developer Musings"
+	# If false, use minified CSS (ui.min.css)
+	debugCSS = false
+	# Custom CSS
+	customCSS = []
+	
+	# Site meta description
+	description = "Markus Scholz' developer blog."
+	# Site's Tagline (Subtitle or Keyword)
+	tagline = "Developer Musings"
+	# If true give attribution to this theme
+	themeAttrib = true
+	# URL to license file, can be outside of your domain
+	licenseURL = "/about/license"
 
-  cover       = "cover.jpg"
-  description = "Here is a description of your site."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+	# Configure which sections for Latest Posts
+	mainSections = ["post"]
+	# Configure which sections for Latest Works
+	workSections = [""]
+	
+	# List of sections that support disqus comments
+	disqusSections = [ "blog" ]
+	# List of sections that support utterances comments
+	utterancesSections = [ "blog" ]
+	
+	# Utterances Configuration
+	utterancesRepo = ""
+	utterancesTheme = "github-light"
+	utterancesLabel = ""
 
-  #twitterName = "faketryghost"
-  #fbName = "fakeghost"
-  githubName = "scholz"
+	# 404 Configuration
+	head404 = "Sorry, I can't find what you want."
+	sub404 = "Back to <a href='/'>Home</a>."
 
-  #logo = "hugo-logo.png"
-  #orgName = "MS"
-  #orgWebsite = "https://www.scholz-www.de"
-  #orgDescription = "Here is a description placeholder for your org"
+	# Color of your website's accent
+	colorTheme = "#ff6565"
+	# Maximum number of item in Latest Posts or Works
+	latestCount = 3
+	# Path to site's favicon image
+	faviconImg = ""
+	# Date format in item list
+	dateFmt = "Jan 02, 2006"
 
-  author = "Markus Scholz"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Karlsruhe, Germany"
-  authorWebsite = "https://scholz.github.io"
-  authorDescription = "Developer"
+	# Code Highlighting (HighlightJS)
+	highlightJs = false
+	highlightJsLanguages = [ "go" ]
+	highlightJsStyle = "ocean"
 
-  pageNotFoundTitle = "404 - Page not found"
+	# Social Links
+	email = "mail@yurizal-san.com"
+	github = "https://github.com/yursan9/"
+	twitter = "https://twitter.com/yuri_boya"
 
-  #casper or caspertwo
-  singleViewStyle = "caspertwo"
 
-[permalinks]
-  post = "/:slug/"
+# Language Configuration
+#[languages.in]
+#	lang = "in"
+#	languageName = "Bahasa Indonesia"
+#	weight = 1
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "Blog"
-  url = "/tags/blog/"
-  weight = 100
-
-[[menu.main]]
-  name = "Projects"
-  url = "/tags/projects/"
-  weight = 99
-
-[[menu.main]]
-  name = "About"
-  #url = "/category/about/"
-  url = "/tags/about/"
-  weight = 98

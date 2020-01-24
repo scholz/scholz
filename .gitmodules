@@ -1,3 +1,9 @@
 [submodule "themes/casper-two"]
 	path = themes/casper-two
 	url = https://github.com/eueung/hugo-casper-two.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/manis"]
+	path = themes/manis
+	url = https://github.com/yursan9/manis-hugo-theme
