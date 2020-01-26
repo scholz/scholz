@@ -34,17 +34,17 @@ paginate        = 6
 
 [permalinks]
  #  post = "/:year/:month/:slug/"
-   post = "/:slug/"
+ post = "/post/:year/:month/:slug/"
 
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 200
 
-[[menu.main]]
-  name = "Blog"
-  url = "/tags/blog/"
-  weight = 100
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/tags/blog/"
+#  weight = 100
 
 [[menu.main]]
   name = "Projects"
