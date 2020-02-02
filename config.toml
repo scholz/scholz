@@ -12,7 +12,7 @@ paginate        = 6
   cover       = "cover.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-157506521-1"
   customCSS = []
   RSSLink = ""
 
